@@ -94,8 +94,8 @@ content:
         caption: 2022.03 - 2023.07
         quote: >
           MICE 특화 메타버스 플랫폼 MOIM(모임)
-        description: | # this will include new lines to allow paragraphs
-          "- MSA(Microservice Architecture) 백엔드 시스템 개발"
+        description:  > #| # this will include new lines to allow paragraphs
+          > "- MSA(Microservice Architecture) 백엔드 시스템 개발"
           "- JavaScript에서 TypeScript로 변경 작업 진행"
           "- Moleculer.js 프레임워크를 활용한 분산 시스템 개발 - Zookeeper를 이용하여 리더 선출 구현"
           "- Main DB로 MongoDB Atlas 사용"
@@ -104,6 +104,16 @@ content:
           "- React용 Admin 페이지 개발"
 
           주요 기술 스택:  <mark>Node.js</mark> <mark>Socket.IO</mark> <mark>Typescript</mark> <mark>Javascript</mark> <mark>MongoDB Atlas</mark> <mark>Redis</mark> <mark>Zookeeper</mark> <mark>BullMQ</mark> <mark>MySQL</mark> <mark>AWS Lambda</mark> <mark>AWS SES</mark> <mark>AWS S3</mark> <mark>React</mark> <mark>Redux</mark>
+    - layout: left
+        title: (주)에이트원
+        link: gridinc.com
+        # link_text: boringcompany.com
+        sub_title: 연구소/연구소장
+        caption: 2021.11 - 2022.03
+        quote: >
+          MICE 특화 메타버스 플랫폼 MOIM(모임)
+        description: | # this will include new lines to allow paragraphs
+          "- MSA(Microservice Architecture) 백엔드 시스템 개발"
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
