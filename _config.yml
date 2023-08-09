@@ -47,8 +47,8 @@ additional_links:
 # About Section
 # about_title: About Me
 about_profile_image: images/profile.jpg
-about_content: | # this will include new lines to allow paragraphs
-  안녕하세요,
+about_content: > # this will include new lines to allow paragraphs
+  안녕하세요.
   저는 23년차 시니어 개발자로, 최근까지 메타버스 서비스를 하고 있는 그리드에서 백엔드 업무를 담당했습니다.
   Node.js, Typescript, mongodb, Redis, socket.io, Zookeeper, BullMQ, MySQL, Lambda 등의 기술들을 사용하여
   개발 작업을 수행하고 있으며, 리액트를 이용한 프론트 개발도 함께 진행했습니다.
@@ -106,12 +106,28 @@ content:
           주요 기술 스택:  <mark>Node.js</mark> <mark>Socket.IO</mark> <mark>Typescript</mark> <mark>Javascript</mark> <mark>MongoDB Atlas</mark> <mark>Redis</mark> <mark>Zookeeper</mark> <mark>BullMQ</mark> <mark>MySQL</mark> <mark>AWS Lambda</mark> <mark>AWS SES</mark> <mark>AWS S3</mark> <mark>React</mark> <mark>Redux</mark>
     - layout: left
         title: (주)에이트원
-        link: gridinc.com
+        link: www.aiitone.com
         # link_text: boringcompany.com
         sub_title: 연구소/연구소장
         caption: 2021.11 - 2022.03
         description: | # this will include new lines to allow paragraphs
           (주)그리드의 요청으로 2021.11 부터 2022.03 까지 파견업무 진행.
+    - layout: left
+        title: 주식회사 지피지기(ZPZGCo.,Ltd.)
+        # link: www.aiitone.com
+        # link_text: boringcompany.com
+        sub_title: 부장
+        caption: 2020.07 - 2021.11
+        quote: >
+          HCL Domino 시스템용 APM(Application Monitoring) 시스템 개발
+        description: > # this will include new lines to allow paragraphs
+          - 수집 Agent: python, C로 개발
+          - HCL Domino에서 발생하는 모든 이벤트를 수집하여 Elastic Search에 저장하고, 수집된 데 이터를 분석하여 그래프로 표현.
+          - 기본적인 H/W, 시스템 Metrics, 운영로그, 차트 설정 및 변경 기능, 각종 알림 설정, 일간/주 간레포팅등.
+          - Front-end는 grafana를 이용하려 했으나 검토 후 자체 개발하기로 함.
+          - Front-end 및 Back-end 개발 전담.
+
+          주요 기술 스택:  <mark>Node.js</mark> <mark>Socket.IO</mark> <mark>Typescript</mark> <mark>Javascript</mark> <mark>ElasticSearch</mark> <mark>pdfmaker</mark> <mark>Zookeeper</mark> <mark>RabbiMQ</mark> <mark>HCL Domino</mark> <mark>IBM Notes Client</mark>
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
