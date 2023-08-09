@@ -95,13 +95,13 @@ content:
         quote: >
           MICE 특화 메타버스 플랫폼 MOIM(모임)
         description:  > #| # this will include new lines to allow paragraphs
-          > "- MSA(Microservice Architecture) 백엔드 시스템 개발"
-          "- JavaScript에서 TypeScript로 변경 작업 진행"
-          "- Moleculer.js 프레임워크를 활용한 분산 시스템 개발 - Zookeeper를 이용하여 리더 선출 구현"
-          "- Main DB로 MongoDB Atlas 사용"
-          "- Memory DB로 AWS ElastiCache 사용"
-          "- Messaging Queue로 BullMQ 사용 -텍스트채팅서비스개발"
-          "- React용 Admin 페이지 개발"
+          - MSA(Microservice Architecture) 백엔드 시스템 개발"
+          - JavaScript에서 TypeScript로 변경 작업 진행"
+          - Moleculer.js 프레임워크를 활용한 분산 시스템 개발 - Zookeeper를 이용하여 리더 선출 구현"
+          - Main DB로 MongoDB Atlas 사용"
+          - Memory DB로 AWS ElastiCache 사용"
+          - Messaging Queue로 BullMQ 사용 -텍스트채팅서비스개발"
+          - React용 Admin 페이지 개발"
 
           주요 기술 스택:  <mark>Node.js</mark> <mark>Socket.IO</mark> <mark>Typescript</mark> <mark>Javascript</mark> <mark>MongoDB Atlas</mark> <mark>Redis</mark> <mark>Zookeeper</mark> <mark>BullMQ</mark> <mark>MySQL</mark> <mark>AWS Lambda</mark> <mark>AWS SES</mark> <mark>AWS S3</mark> <mark>React</mark> <mark>Redux</mark>
     - layout: left
