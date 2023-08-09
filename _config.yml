@@ -87,7 +87,7 @@ content:
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: 주식회사 그리드
+        title: (주)그리드
         link: gridinc.com
         # link_text: boringcompany.com
         sub_title: Senior Backend Engineer
@@ -110,10 +110,8 @@ content:
         # link_text: boringcompany.com
         sub_title: 연구소/연구소장
         caption: 2021.11 - 2022.03
-        quote: >
-          MICE 특화 메타버스 플랫폼 MOIM(모임)
         description: | # this will include new lines to allow paragraphs
-          "- MSA(Microservice Architecture) 백엔드 시스템 개발"
+          (주)그리드의 요청으로 2021.11 부터 2022.03 까지 파견업무 진행.
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
