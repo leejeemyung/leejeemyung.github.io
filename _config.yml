@@ -61,8 +61,7 @@ about_content: | # this will include new lines to allow paragraphs
   다양한 프로젝트 경험과 기술적 지식을 토대로, 저는 도전적이고 혁신적인 프로젝트에 기여하고 싶습니다. 새로운 기술에 대한 열정과 항상 배우는 자세로 미래 지향적인 개발에 기여하고 싶습니다.
   감사합니다.
 
-  주요 기술 스택:  <mark>Node.js</mark>, <mark>TypeScript</mark>, <mark>React</mark>, <mark>Redis</mark>, <mark>Zookeeper</mark>, <mark>RabbitMQ</mark>, <mark>Apache Ignite</mark>, <mark>MariaDB</mark>,
-  <mark>Elastic Search</mark>, <mark>Nginx</mark>, <mark>Apache Http</mark>
+  주요 기술 스택:  <mark>Node.js</mark> <mark>TypeScript</mark> <mark>React</mark> <mark>Redis</mark> <mark>Zookeeper</mark> <mark>RabbitMQ</mark> <mark>Apache Ignite</mark> <mark>MariaDB</mark> <mark>Elastic Search</mark> <mark>Nginx</mark> <mark>Apache Http</mark>
 
 content:
   - title: Projects # Title for the section
