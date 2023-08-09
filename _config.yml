@@ -48,41 +48,21 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: > # this will include new lines to allow paragraphs
-  안녕하세요.
-  저는 23년차 시니어 개발자로, 최근까지 메타버스 서비스를 하고 있는 그리드에서 백엔드 업무를 담당했습니다.
-  Node.js, Typescript, mongodb, Redis, socket.io, Zookeeper, BullMQ, MySQL, Lambda 등의 기술들을 사용하여
-  개발 작업을 수행하고 있으며, 리액트를 이용한 프론트 개발도 함께 진행했습니다.
-  이전에는 ZPZG라는 스타트업에서 IBM Domino 용 APM(application performance monitoring)을 개발 하였습니다.
-  Node.js, Typesscript, socket.io, Redis, Elastic search, Zookeeper, RabbitMQ 등의 기술을 사용하여 개발 작업을 수행하였습니다.
+  안녕하세요,<br/>
+  저는 23년차 시니어 개발자로, 최근까지 메타버스 서비스를 하고 있는 그리드에서 백엔드 업무를 담당했습니다.<br/>
+  Node.js, Typescript, mongodb, Redis, socket.io, Zookeeper, BullMQ, MySQL, Lambda 등의 기술들을 사용하여 개발 작업을 수행하고 있으며, 리액트를 이용한 프론트 개발도 함께 진행했습니다.<br/>
+  이전에는 ZPZG라는 스타트업에서 IBM Domino 용 APM(application performance monitoring)을 개발 하였습니다.<br/>
+  Node.js, Typesscript, socket.io, Redis, Elastic search, Zookeeper, RabbitMQ 등의 기술을 사용하여 개발 작업을 수행하였습니다.<br/>
   또한, 새롬 정보 시스템에서는 IBM Domino 솔루션에서 구동되는 그룹웨어 시스템 개발 및 SI프로젝트를 진행 한후,
-  연구소로 이동하여 대용량 첨부서버(C++, IOCP, Thread), 웹하드 서버(JAVA), DB Connector(Adobe Flex, Java) 등의 제 품 설계 및 구현을 수행하였습니다.
-  또한, 안드로이드 메신저 앱과 PC용 메신저 클라이언트(Adobe Air, Electron+React)를 개발하고, 메신저 서버 개발을 전담하였습니다.
-  최근에는 GoLang과 Rust에 큰 관심을 가 지고 있으며, 이를 활용하여 더욱 뛰어난 개발 작업을 이끌어내고 싶습니다.
-  다양한 프로젝트 경험과 기술적 지식을 토대로, 저는 도전적이고 혁신적인 프로젝트에 기여하고 싶습니다. 새로운 기술에 대한 열정과 항상 배우는 자세로 미래 지향적인 개발에 기여하고 싶습니다.
-  감사합니다.
+  연구소로 이동하여 대용량 첨부서버(C++, IOCP, Thread), 웹하드 서버(JAVA), DB Connector(Adobe Flex, Java) 등의 제 품 설계 및 구현을 수행하였습니다.<br/>
+  또한, 안드로이드 메신저 앱과 PC용 메신저 클라이언트(Adobe Air, Electron+React)를 개발하고, 메신저 서버 개발을 전담하였습니다.<br/>
+  최근에는 GoLang과 Rust에 큰 관심을 가 지고 있으며, 이를 활용하여 더욱 뛰어난 개발 작업을 이끌어내고 싶습니다.<br/>
+  다양한 프로젝트 경험과 기술적 지식을 토대로, 저는 도전적이고 혁신적인 프로젝트에 기여하고 싶습니다. 새로운 기술에 대한 열정과 항상 배우는 자세로 미래 지향적인 개발에 기여하고 싶습니다.<br/>
+  감사합니다.<br/><br/>
 
   주요 기술 스택:  <mark>Node.js</mark> <mark>TypeScript</mark> <mark>React</mark> <mark>Redis</mark> <mark>Zookeeper</mark> <mark>RabbitMQ</mark> <mark>Apache Ignite</mark> <mark>MariaDB</mark> <mark>Elastic Search</mark> <mark>Nginx</mark> <mark>Apache Http</mark>
 
 content:
-  - title: Projects # Title for the section
-    layout: list # Type of content section (list/text)
-    content:
-      - layout: top-middle
-        title: Super awesome project
-        link: github.com/sproogen
-        # link_text: Project Website
-        additional_links:
-          - title: sproogen/modern-resume-theme
-            icon: fab fa-github
-            url: github.com/sproogen/modern-resume-theme
-          # - title:  Github page for project (eg. sproogen/modern-resume-theme)
-          #   icon: fab fa-github
-          #   url: Link to project (eg. sproogen.github.io/modern-resume-theme)
-        quote: >
-          This is probably one of the greatest apps ever created, if you don't agree you're probably wrong.
-        description: | # this will include new lines to allow paragraphs
-          I started this project as a way if learning <mark>React</mark> and it has since grown into a fully fledged app. I have learned many skills through this and been I'm very proud of having this in my portfolio. If you don't have a project as awesome as this I would advise you make one.
-
   - title: Experience # Title for the section
     layout: list # Type of content section (list/text)
     content:
@@ -93,18 +73,20 @@ content:
         sub_title: Senior Backend Engineer
         caption: 2022.03 - 2023.07
         quote: >
-          MICE 특화 메타버스 플랫폼 MOIM(모임)
-        description:  > #| # this will include new lines to allow paragraphs
-          - MSA(Microservice Architecture) 백엔드 시스템 개발"
-          - JavaScript에서 TypeScript로 변경 작업 진행"
-          - Moleculer.js 프레임워크를 활용한 분산 시스템 개발 - Zookeeper를 이용하여 리더 선출 구현"
-          - Main DB로 MongoDB Atlas 사용"
-          - Memory DB로 AWS ElastiCache 사용"
-          - Messaging Queue로 BullMQ 사용 -텍스트채팅서비스개발"
-          - React용 Admin 페이지 개발"
+          메타버스 플랫폼 'moim'은 MICE 특화된 메타버스 플랫폼으로 가장 앞선 기술의 공간 커뮤니티 경험을 제공한다는 비전을 가지고 개발된 최초의 메타버스 플랫폼입니다. 여기에서 Backend 시스템을 개발을 담당했습니다.
+        description: | # this will include new lines to allow paragraphs
 
-          주요 기술 스택:  <mark>Node.js</mark> <mark>Socket.IO</mark> <mark>Typescript</mark> <mark>Javascript</mark> <mark>MongoDB Atlas</mark> <mark>Redis</mark> <mark>Zookeeper</mark> <mark>BullMQ</mark> <mark>MySQL</mark> <mark>AWS Lambda</mark> <mark>AWS SES</mark> <mark>AWS S3</mark> <mark>React</mark> <mark>Redux</mark>
-    - layout: left
+          - MSA(Microservice Architecture) 백엔드 시스템 개발
+          - JavaScript에서 TypeScript로 변경 작업 진행
+          - Moleculer.js 프레임워크를 활용한 분산 시스템 개발
+          - Zookeeper를 이용하여 리더 선출 구현
+          - Main DB로 MongoDB Atlas 사용
+          - Memory DB로 AWS ElastiCache 사용
+          - Messaging Queue로 BullMQ 사용 -텍스트채팅서비스개발
+          - React용 Admin 페이지 개발
+
+            주요 기술 스택:  <mark>Node.js</mark> <mark>Socket.IO</mark> <mark>Typescript</mark> <mark>Javascript</mark> <mark>MongoDB Atlas</mark> <mark>Redis</mark> <mark>Zookeeper</mark> <mark>BullMQ</mark> <mark>MySQL</mark> <mark>AWS Lambda</mark> <mark>AWS SES</mark> <mark>AWS S3</mark> <mark>React</mark> <mark>Redux</mark>
+      - layout: left
         title: (주)에이트원
         link: www.aiitone.com
         # link_text: boringcompany.com
@@ -112,54 +94,207 @@ content:
         caption: 2021.11 - 2022.03
         description: | # this will include new lines to allow paragraphs
           (주)그리드의 요청으로 2021.11 부터 2022.03 까지 파견업무 진행.
-    - layout: left
+
+      - layout: left
         title: 주식회사 지피지기(ZPZGCo.,Ltd.)
         # link: www.aiitone.com
         # link_text: boringcompany.com
         sub_title: 부장
         caption: 2020.07 - 2021.11
         quote: >
-          HCL Domino 시스템용 APM(Application Monitoring) 시스템 개발
-        description: > # this will include new lines to allow paragraphs
+          HCL Domino 시스템용 APM(Application Monitoring) 솔루션인 DIV(Domino Internal Viewer)은 지금까지 알수없었던 Domino Server의 모든 정보를 종합적으로 빠르게 한눈에 볼수 있는 최초의 솔루션입니다. 여기에서 Frontend 및 Backend개발을 담당했습니다.
+        description: | # this will include new lines to allow paragraphs
           - 수집 Agent: python, C로 개발
           - HCL Domino에서 발생하는 모든 이벤트를 수집하여 Elastic Search에 저장하고, 수집된 데 이터를 분석하여 그래프로 표현.
           - 기본적인 H/W, 시스템 Metrics, 운영로그, 차트 설정 및 변경 기능, 각종 알림 설정, 일간/주 간레포팅등.
           - Front-end는 grafana를 이용하려 했으나 검토 후 자체 개발하기로 함.
           - Front-end 및 Back-end 개발 전담.
 
-          주요 기술 스택:  <mark>Node.js</mark> <mark>Socket.IO</mark> <mark>Typescript</mark> <mark>Javascript</mark> <mark>ElasticSearch</mark> <mark>pdfmaker</mark> <mark>Zookeeper</mark> <mark>RabbiMQ</mark> <mark>HCL Domino</mark> <mark>IBM Notes Client</mark>
+            소개동영상: <a href="https://www.youtube.com/watch?v=cKJ5jL9vjDk&t=1203s" target="_new">youtube 보기</a>
+
+            주요 기술 스택:  <mark>Node.js</mark> <mark>Socket.IO</mark> <mark>Typescript</mark> <mark>Javascript</mark> <mark>ElasticSearch</mark> <mark>pdfmaker</mark> <mark>Zookeeper</mark> <mark>RabbiMQ</mark> <mark>HCL Domino</mark> <mark>IBM Notes Client</mark>
+      - layout: left
+        title: (주)새롬정보 시스템
+        link: www.saerom.co.kr
+        # link_text: boringcompany.com
+        sub_title: 수석
+        caption: 2008.03 - 2020.04
+        quote: >
+          협업시스템에서 AI 빅데이터 분석까지 최적의 솔루션을 제공하며, 구축부터 유지보수까지 토탈 솔류선을 제공하니다.
+          여기에서 기술연구소 소속으로 메신저 시스탬 설계 및 개발을 담당 했으며, DB Connector, 대용량 첨부 서버 등 다양한 솔루션을 개발하였습니다.
+        description: | # this will include new lines to allow paragraphs
+          - 현대차 증권 상담시스템 구축
+            - 전국에 지점이 충분치 않아 불편해 하는 사용자를 위해여 메신저 상담시스템을 구축
+            - 전화상담은한번에한사람만상담이가능하지만,메신저를이용한상담은한번에여러명상 담이 가능함( 상담사에 스킬에 따라 멀티 채팅, 싱글 채팅으로 상담하도록 구성)
+            - 채팅상담서버시스템개발담당
+            - 무중단 시스템 구성을 위한 메신저 서버 2중화(redis, sentinel 클러스터링 구성)
+            - 기존 상담은 전화로만 상담을 받았으나 메신저를 추가하여 상담사가 메신저로도 상담을 받을 수있도록 구성함.
+            -상담중계를위한교환시스템연동
+            -사용자계좌조회및비밀번호변경등을위한socket전문통신
+            - 지점별 커뮤니티 개설(네이버 밴드와 유사) 기능
+            -관리자기능추가,진행중인상담,상담내역검색,지점별커뮤니터관리기능추가등
+
+            주요 기술 스택: <mark>Node.js</mark> <mark>Javascript</mark> <mark>TypeScript</mark> <mark>MySQL</mark> <mark>socket.io</mark> <mark>Redis</mark> <mark>Java</mark> <mark>Redis</mark> <mark>ffi(Foreign Function Interface)</mark>
+
+      - layout: left
+        description: |
+          - 협업 메신저 솔류션 개발\
+            멀티 클라언트(android, iphone, window, mac, 웹)를 지원하는 메신저 시스템을 개발\
+            메신저서버, 안드로이드, PC클라이언트, 웹 개발을 담당.
+            - node.js를 이용한 메신저 서버 개발(TypeScript) 개발
+            - 안드로이드 용 모바일 메신저 클라이언트 개발
+            - PC용 메신저 클라이언트 개발
+            adobe air로 개발 후 electron, react 베이스로 변경 함.
+            - 메세지 전송, 쪽지 전송, 파일 보내기(서버경유), 대화제한 기능 제공 - 마이채널, 최근대화목록, 조직도 기능 제공
+            - 사용자 상태관리
+            -IPT연동
+            - 기간계 시스템 연동(SSO) -웹페이지사용자상태표시 -메신저서버분산환경지원 -웹메신저기능지원
+            - 2020년 4월까지 지속적인 업그레이드 진행 함<br/><br/>
+
+            지원 플랫폼: windows, Linux(redhat, centos, ubuntu)
+
+            기술스택: <mark>Node.js</mark> <mark>javascript(ES6)</mark> <mark>typescript</mark> <mark>webpack</mark> <mark>express</mark> <mark>redis</mark> <mark>socket.io</mark> <mark>mariadb</mark> <mark>ffi(Foreign Function Interface)</mark>
+
+      - layout: left
+        description: |
+          - DB Connector 솔루션 개발
+            - IBM Domino DOMINO용 DB CONNECTOR 개발
+            - GUI환경에서의 간편한 설정과 매핑을 이용한 손쉬운 연동 기능 제공
+            - 통합 결재 지원(IBM Domino)
+            - 그룹웨어 시스템과 연동
+            - JAVA용 라이브러리 제공
+            - 차트를이용한연동결과제공
+            - SAP(RFC) 연동 기능 제공
+            - 다양한 데이터 베이스 연동(MSSQL, Oracle, MySQL, MariaDB 등)
+
+            기술스택: <mark>JAVA</mark> <mark>SAP(RFC)</mark> <mark>JDBC</mark> <mark>AOBE FLEX</mark> <mark>ORACLE</mark> <mark>MYSQL</mark> <mark>MARIADB</mark>  <mark>MSSQL</mark>
+
+      - layout: left
+        description: |
+          - 대용량 첨부서버 솔루션 개발
+            - LINUX 용 대용량 첨부 업로드 서버 개발(C++)
+            - WINDOWS용 대용량 첨부 업로드 서버(C++, IOCP)
+            - 첨부다운로드서버개발(JAVA)
+            - 파일관리,폴더관리기능추가
+            - upload component 개발( ADOBE FLEX)
+            - 업로드 다운로드 이력관리 -메일시스템연동
+            - 다운로드 패스워드 설정
+            - IBM DOMINO SSO 연동<br/><br/>
+            지원 플랫폼: windows, Linux
+            기술스택: <mark>C++</mark> <mark>IOCP</mark> <mark>JAVA</mark> <mark>JSP</mark> <mark>APACHE HTTPD</mark> <mark>APACHE TOMCAT</mark>  <mark>JAVASCRIPT</mark> <mark>MARIADB</mark> <mark>MYSQL</mark> <mark>ORACLE</mark>
+
+      - layout: left
+        description: |
+          - IBM Domno Groupware 구축 프로젝트 수행
+            - LG화학
+            - SKC&C
+            - 기상청
+            - 대법원
+            - 코웨이
+            - 다음커뮤니케이션
+            - 스포츠토토
+            - 동진세미켐
+            - 코리안리 재보험
+            - 일진 그룹
+            - 한국 법제연구원
+            - 서울 보증보험
+            - 진합 외 다수
+
+      - layout: left
+        description: |
+          - 메신저 시스템 구축 프로젝트
+            - LG생활건강
+            - 코웨이
+            - 흥극생명
+            - 아주캐피털
+            - 라이나생명
+            - 게임빌
+            - 컴투스 외 다수
+      - layout: left
+        title: (주)아미텍
+        # link: www.aiitone.com
+        # link_text: boringcompany.com
+        sub_title: 차장
+        caption: 2006.08 - 2008.01
+        quote: >
+          그룹웨어 전문 업체로 IBM Domino를 이용하여 그룹웨어를 개발하는 SI 전문업체 입니다.
+          진스 시스템에서 아미택으로 사명 및 법인이 변경되었습니다.
+          중소 업체를 위해 Opensource java 자바 버전 그룹웨어 솔루션인 NEK-JAVA를 개발하였습니다.
+        description: | # this will include new lines to allow paragraphs
+          - 그룹웨어 시스템 개발
+            Open Source를 이용한 그룹웨어 시스템 개발을 개발하였습니다.\
+            주요언어는 JAVA를 사용하였고, 메일은 Apache James 시스템을 커스터마이징 하여 사용했 습니다.\
+            - 메일시스템개발
+            - 결재시스템개발
+            - 일정 시스템 개발
+            - 각종게시판시스템개발<br/><br/>
+            지원 플랫폼: windows, Linux
+            기술스택: <mark>JAVA</mark> <mark>JSP</mark> <mark>APACHE HTTPD</mark> <mark>APACHE TOMCAT</mark> <mark>APACHE JAMES</mark> <mark>JAVASCRIPT</mark> <mark>MYSQL</mark>
+      - layout: left
+        description: |
+          - Groupware 시스템 구축 프로젝트
+            - 큐릭스: 그룹웨어 시스템 구축
+            - 기상청: KMS 2차 고도화
+            - 코마스: 그룹웨어 시스템 구축
+            - 스타리온: 그룹웨어 시스템 구축 외 다수
+
+      - layout: left
+        title: 진스 시스템(주)
+        # link: www.aiitone.com
+        # link_text: boringcompany.com
+        sub_title: 과장
+        caption: 1999.11 - 2006.08
+        quote: >
+          그룹웨어 전문 업체로 IBM Domino를 이용하여 그룹웨어를 개발하는 SI 전문업체 입니다.
+          여기서 그룹웨어 솔루션 및 지식관리 솔류선을 개발에 참여하였고, 그룹웨어 및 지식관리 프로젝트르르 수행하였습니다.
+        description: | # this will include new lines to allow paragraphs
+          - 지식관리 솔류션 개발
+            IBM Domino 시스템을 이용한 지식관리 시스템 개발<br/><br/>
+
+          - 그룹웨어 솔류션 개발
+            IBM Domino 시스템을 이용한 그룹웨어 시스템 개발
+
+          - SI 프로젝트 수행
+            - SK울산cls:KMS시스템구축
+            - 서울은행: 고객관리 워크플로우 구축
+            - 부민상호신용금고: 그룹웨어 시스템 구축
+            - 외환카드: 그룹웨어 시스템 구축
+            - 스타리온 중국공장: 그룹웨어 시스템 구축
+            - 외환카드
+            - BAT코리아외다수
 
   - title: Education # Title for the section
     layout: list # Type of content section (list/text)
     content:
       - layout: left
-        title: Harvard University
-        caption: 2010 - 2013
-        sub_title: BSc Computer Science
-        quote: >
-          Established in 1636, Harvard is the oldest higher education institution in the United States, and is widely regarded in terms of its influence, reputation, and academic pedigree as a leading university in not just the US but also the world.
+        title: 한국방송통신대학교
+        # caption: 2006.01 - 2008.02
+        # sub_title: 컴퓨터 과학과
         description: | # this will include new lines to allow paragraphs
-          During my time at Harvard I learnt most of my key skills that have I have taken through my career such as teamwork and working to tight deadlines. I thouroughly enjoyed my time as university and learnt a lot about a healthy work life balance.
-
-          I spent a lot of my free time as a committee member of the *Harvard Mountaineering Club* taking on roles such as *Trip Secretary* and *Vice-President*.
-
-  - title: A Little More About Me
-    layout: text
-    content: | # this will include new lines to allow paragraphs
-      Alongside my interests in networks and software engineering some of my other interests and hobbies are:
-      - Rock climbing
-      - Gaming
-      - Knitting
-      - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
-
-      Look at this cool image
-      ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
-
-# Footer
-footer_show_references: true
-# references_title: References on request (Override references text)
-
-# Build settings
+          <pre>컴퓨터과학과                   2006.01 - 2008.02</pre>
+      - layout: left
+        title: 동의과학대햑고
+        #caption: 2006.01 - 2008.02
+        #sub_title: 정보처리학과
+        description: | # this will include new lines to allow paragraphs
+          <pre>정보처리학과                   2006.01 - 2008.02</pre>
+#   - title: A Little More About Me
+#     layout: text
+#     content: | # this will include new lines to allow paragraphs
+#       Alongside my interests in networks and software engineering some of my  other interests and hobbies are:
+#       - Rock climbing
+#       - Gaming
+#       - Knitting
+#       - [Becoming a ninja](https://www.youtube.com/watch?v=vtg4o__aRMg)
+#
+#       Look at this cool image
+#       ![Trees](/modern-resume-theme/images/landscape-trees.jpg "Trees")
+#
+# # Footer
+# footer_show_references: true
+# # references_title: References on request (Override references text)
+#
+# # Build settings
 remote_theme: sproogen/resume-theme
 
 sass:
