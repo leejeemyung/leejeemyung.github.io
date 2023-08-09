@@ -15,17 +15,17 @@ website: www.github.com/leejeemyung
 darkmode: false
 
 # Social links
-twitter_username: facespics
-github_username: sproogen
+twitter_username: ljim81921
+github_username: leejeemyung
 # stackoverflow_username: "00000001"
 # dribbble_username: jekyll
-# facebook_username: jekyll
+facebook_username: leejeemyung
 # flickr_username: jekyll
-instagram_username: jameswgrant
-linkedin_username: jameswgrant
+instagram_username: jeemyunglee
+linkedin_username: 지명-이-492267a3
 # xing_username: jekyll
 # pinterest_username: jekyll
-youtube_username: globalmtb
+# youtube_username: globalmtb
 # googleplus_username: +jekyll
 # orcid_username: 0000-0000-0000-0000
 
@@ -48,9 +48,21 @@ additional_links:
 # about_title: About Me
 about_profile_image: images/profile.jpg
 about_content: | # this will include new lines to allow paragraphs
-  Hi, my name's Brett and I'm a senior network system administrator. As well as administrating systems I also have experience making software and web apps. I have worked at a number of companies gaining teamwork and leadership skills.
+  안녕하세요,
+  저는 23년차 시니어 개발자로, 최근까지 메타버스 서비스를 하고 있는 그리드에서 백엔드 업무를 담당했습니다.
+  Node.js, Typescript, mongodb, Redis, socket.io, Zookeeper, BullMQ, MySQL, Lambda 등의 기술들을 사용하여
+  개발 작업을 수행하고 있으며, 리액트를 이용한 프론트 개발도 함께 진행했습니다.
+  이전에는 ZPZG라는 스타트업에서 IBM Domino 용 APM(application performance monitoring)을 개발 하였습니다.
+  Node.js, Typesscript, socket.io, Redis, Elastic search, Zookeeper, RabbitMQ 등의 기술을 사용하여 개발 작업을 수행하였습니다.
+  또한, 새롬 정보 시스템에서는 IBM Domino 솔루션에서 구동되는 그룹웨어 시스템 개발 및 SI프로젝트를 진행 한후,
+  연구소로 이동하여 대용량 첨부서버(C++, IOCP, Thread), 웹하드 서버(JAVA), DB Connector(Adobe Flex, Java) 등의 제 품 설계 및 구현을 수행하였습니다.
+  또한, 안드로이드 메신저 앱과 PC용 메신저 클라이언트(Adobe Air, Electron+React)를 개발하고, 메신저 서버 개발을 전담하였습니다.
+  최근에는 GoLang과 Rust에 큰 관심을 가 지고 있으며, 이를 활용하여 더욱 뛰어난 개발 작업을 이끌어내고 싶습니다.
+  다양한 프로젝트 경험과 기술적 지식을 토대로, 저는 도전적이고 혁신적인 프로젝트에 기여하고 싶습니다. 새로운 기술에 대한 열정과 항상 배우는 자세로 미래 지향적인 개발에 기여하고 싶습니다.
+  감사합니다.
 
-  I am most skilled in: <mark>AWS</mark> and <mark>Eating Pizza</mark>
+  주요 기술 스택:  <mark>Node.js</mark>, <mark>TypeScript</mark>, <mark>React</mark>, <mark>Redis</mark>, <mark>Zookeeper</mark>, <mark>RabbitMQ</mark>, <mark>Apache Ignite</mark>, <mark>MariaDB</mark>,
+  <mark>Elastic Search</mark>, <mark>Nginx</mark>, <mark>Apache Http</mark>
 
 content:
   - title: Projects # Title for the section
